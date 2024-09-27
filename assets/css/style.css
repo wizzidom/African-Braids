@@ -308,11 +308,12 @@ video {
 
 .header-bottom {
   position: absolute;
-  top: 45px;
+  background-color: white;
+  /* top: 45px; */
   left: 0;
   width: 100%;
-  padding-block: 10px;
   z-index: 4;
+  height: ;
   color: white;
 }
 
@@ -945,8 +946,9 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
     transform: translateX(-50%);
     max-width: 600px;
     z-index: 4;
-    background-color: var(--white);
-    border-radius: 0 0 20px 20px;
+    background-color: white;
+    display: ;
+ 
   }
 
   .header-top-item:first-child {
