@@ -309,7 +309,7 @@ video {
 .header-bottom {
   position: absolute;
   background-color: white;
-  /* top: 45px; */
+  top: 45px;
   left: 0;
   width: 100%;
   z-index: 4;
