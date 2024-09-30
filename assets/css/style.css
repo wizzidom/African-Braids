@@ -505,6 +505,7 @@ video {
 .pricing .section-text {
   margin-block: 15px 55px;
   color: var(--white_50);
+
 }
 
 .pricing-tab-container {
@@ -1105,7 +1106,9 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
   .container { max-width: 720px; }
 
-  .h2 { --fs-30: 4rem; }
+  .h2 { --fs-30: 4rem;
+    padding: 10px;
+  }
 
   .section-text {
     max-width: 50ch;
